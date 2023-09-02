@@ -1,4 +1,3 @@
-
 import Partner from "./components/partnerSection";
 
 function App() {
@@ -6,6 +5,7 @@ function App() {
     <div className="flex flex-col items-center justify-center font-bold mainBackground">
     
       <Partner/>
+
     </div>
   );
 }
