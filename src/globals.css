@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.PartnersBG {
+  @apply border-[#41557280] bg-gradient-to-b from-[#41557280] to-[#1B1B1E];
+}
+
+.mainBackground {
+  @apply bg-[#141619];
+}
