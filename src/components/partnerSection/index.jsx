@@ -1,9 +1,9 @@
 import "typeface-inter";
-import { partners1, partners2 } from "./data";
+import { partners1 } from "./data";
 
 function Partner() {
   return (
-    <section className=" font-inter">
+    <section className="font-inter">
       <div>
         <img
           className="absolute left-0 -top-14"
@@ -14,17 +14,17 @@ function Partner() {
           <img
             className="absolute top-80 left-20"
             alt="Solana png"
-            src="/partnerSection/solana.png.png"
+            src="/partnerSection/solana.png.svg"
           />
           <img
             className="absolute top-1/4 left-32"
             alt="Near png"
-            src="/partnerSection/near.png.png"
+            src="/partnerSection/near.png.svg"
           />
           <img
             className="absolute top-64 left-52"
             alt="Mena png"
-            src="/partnerSection/mena.png.png"
+            src="/partnerSection/mena.png.svg"
           />
         </div>
       </div>
@@ -38,40 +38,23 @@ function Partner() {
             <img
               className="w-24 h-24 "
               alt="Bithumb"
-              src="/partnerSection/bithumb@2x.png.png"
+              src="/partnerSection/bithumb@2x.png.svg"
             />
             <h3 className="text-xs text-center text-custom-gray whitespace-nowrap">
               Bithumb
             </h3>
           </div>
           <div className="flex flex-col gap-8 sm:flex-row max-lg:mt-10">
-            <div className="grid grid-cols-1 gap-8">
+            <div className="grid grid-cols-2 even:mt-20 gap-x-8 gap-y-4">
               {partners1.map((partner, index) => (
                 <div
                   key={index}
-                  className="relative flex flex-col justify-center w-48 h-48 border border-solid rounded-md lg:w-40 lg:h-40 xl:w-48 xl:h-48 bottom-6 gap-y-4 PartnersBG p-14 lg:p-10"
+                  className="relative flex flex-col justify-center w-48 h-48 border border-solid rounded-md lg:w-40 lg:h-40 xl:w-48 xl:h-48  gap-y-4 PartnersBG p-14 lg:p-10 even:mt-6"
                 >
                   <img
                     className="w-24 h-24 "
                     alt={`${partner.name} png`}
-                    src={`${partner.image}.png`}
-                  />
-                  <h3 className="text-xs text-center text-custom-gray whitespace-nowrap">
-                    {partner.name}
-                  </h3>
-                </div>
-              ))}
-            </div>
-            <div className="grid grid-cols-1 gap-8">
-              {partners2.map((partner, index) => (
-                <div
-                  key={index}
-                  className="flex flex-col justify-center w-48 h-48 border border-solid rounded-md gap-y-4 lg:w-40 lg:h-40 xl:w-48 xl:h-48 PartnersBG p-14 lg:p-10"
-                >
-                  <img
-                    className="w-24 h-24 "
-                    alt={`${partner.name} png`}
-                    src={`${partner.image}.png`}
+                    src={`${partner.image}.svg`}
                   />
                   <h3 className="text-xs text-center text-custom-gray whitespace-nowrap">
                     {partner.name}
@@ -84,7 +67,7 @@ function Partner() {
             <img
               className="w-24 h-24 "
               alt="Bithumb"
-              src="/partnerSection/bitfinex@2x.png.png"
+              src="/partnerSection/bitfinex@2x.png.svg"
             />
             <h3 className="text-xs text-center text-custom-gray whitespace-nowrap">
               Bitfinex
