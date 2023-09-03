@@ -1,18 +1,6 @@
-import React from "react";
-import Grid from "./Grid";
-import griditems from "./grid-items";
+import statsArray from "./stats";
 
 const About = () => {
-  const [grids, setGrids] = React.useState(griditems);
-  const gridElements = grids.map((grid) => (
-    <Grid
-      title={grid.title}
-      description={grid.description}
-      key={grid.id}
-      on={grid.on}
-    />
-  ));
-
   const items = [
     {
       title: "About Gravity Team",
@@ -20,16 +8,25 @@ const About = () => {
         "At Gravity Team, we are on the mission to balance the supply and demand across crypto markets worldwide. We are a crypto native market maker founded by traders, developers, and innovators who are strong believers and supporters of the future of decentralization and digital assets.",
     },
   ];
+
+
   return (
     <section className="bg-[#141619] text-white text-center">
       {items.map((item, index) => (
         <div key={index}>
-          <h1 className="font-inter text-3xl font-medium">{item.title}</h1>
-          <p className="mt-6 m-auto">{item.paragraph}</p>
+          <h1 className="font-inter text-3xl md:text-3xl lg:text-5xl font-medium">
+            {item.title}
+          </h1>
+          <p className="mt-6 md:w-2/3 lg:w-2/5 m-auto">{item.paragraph}</p>
         </div>
       ))}
-      <div className="mt-12 p-2 md:mx-12 grid grid-cols-2 md:grid-cols-4">
-        {gridElements}
+      <div className="mt-8 grid grid-cols-2 md:grid-cols-4">
+        {statsArray.map((item) => (
+          <div key={item.id} className="p-4 border border-gray-300 hover:primary-gradient rounded">
+            <h2 className="text-xl font-semibold">{item.title}</h2>
+            <p className="mt-2 text-sm ">{item.description}</p>
+          </div>
+        ))}
       </div>
     </section>
   );
