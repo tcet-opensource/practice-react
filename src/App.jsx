@@ -1,10 +1,9 @@
 import React from "react";
-import Index from "./components/One/index";
+import Market from "./components/Market section";
 function App() {
   return (
-    <div className="flex flex-col items-center justify-center p-80 font-bold">
-      <p className="text-pink-800">Project 2</p>
-      <Index />
+    <div>
+      <Market />
     </div>
   );
 }
