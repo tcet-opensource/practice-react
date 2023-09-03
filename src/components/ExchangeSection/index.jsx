@@ -6,11 +6,13 @@ export default function ExchangeSection() {
     <div className="text-white flex flex-col xl:flex-row justify-center items-center sm:mx-32 sm:my-32 my-32 mx-10 gap-28 relative">
       <img
         src='/ExchangeSection/mainGradient.svg'
-        className="absolute xl:-left-32 xl:-top-80 md:w-[61rem] z-0"
+        className="absolute xl:-left-32 xl:-top-80 md:w-[61rem]"
+        alt="grad1"
       />
       <img
         src='/ExchangeSection/gradient2.svg'
-        className="absolute xl:right-64 xl:-bottom-[32rem] right-10 z-0"
+        className="absolute xl:right-64 xl:-bottom-[32rem] right-10"
+        alt="grad2"
       />
       <img className="z-10" src="/ExchangeSection/mainImg.svg" alt="mainImg" />
       <div className="flex flex-col gap-8 mb-12 sm:w-[25.5rem] w-full">
