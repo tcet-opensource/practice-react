@@ -1,6 +1,6 @@
 
 import React from "react";
-import Market from "./components/Market section";
+import Market from "./components/marketSection";
 function App() {
   return (
     <div>

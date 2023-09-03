@@ -1,4 +1,4 @@
-import token from "/Market section/token.svg";
+import token from "/marketSection/token.svg";
 const topArr = [
   {
     head: "Crypto Market Making",
