@@ -17,12 +17,12 @@ function Hero() {
         <body key={index}>
           <div className="bg-black h-screen flex flex-col items-center text-white gap-1">
             <h1 className="w-10/12 p-10 text-center text-5xl font-semibold md:text-7xl text-white">
-              Balancing
+              {item.title.split(" ").slice(0, 1).join(" ")}
               <br />
-              Crypto Markets
+              {item.title.split(" ").slice(1).join(" ")}
             </h1>
 
-            <p className="w-3/5 sm:w-1/3 text-18 text-center font-normal text-gray-300 mt-4">
+            <p className="w-1/3 text-18 text-center font-normal text-gray-300 mt-4">
               {item.description}
             </p>
             <button className="primary-gradient m-10 h-14 w-48 text-lg font-medium">
