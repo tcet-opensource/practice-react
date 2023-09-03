@@ -45,6 +45,6 @@ function Market() {
       ))}
     </div>
   );
-}
+} 
 
 export default Market;
