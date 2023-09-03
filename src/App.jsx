@@ -1,4 +1,3 @@
-import React from "react";
 import Index from "./components/One/index";
 function App() {
   return (
