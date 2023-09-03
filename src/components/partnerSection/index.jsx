@@ -45,7 +45,7 @@ function Partner() {
             </h3>
           </div>
           <div className="flex flex-col gap-8 sm:flex-row max-lg:mt-10">
-            <div className="grid grid-cols-2 even:mt-20 gap-x-8 gap-y-4">
+            <div className="grid grid-cols-2 max-sm:grid-cols-1 even:mt-20 gap-x-8 gap-y-4">
               {partners1.map((partner, index) => (
                 <div
                   key={index}
