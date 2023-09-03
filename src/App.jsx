@@ -1,11 +1,7 @@
-import Index from "./components/One/index";
+import About from "./components/AboutSection";
+
 function App() {
-  return (
-    <div>
-      {/* <p>Project 2</p> */}
-      <Index />
-    </div>
-  );
+  return <About />;
 }
 
 export default App;
