@@ -1,4 +1,3 @@
-import React from "react";
 import Index from "./components/One/index";
 import Slider from "./components/Company-Slider";
 function App() {
