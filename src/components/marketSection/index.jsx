@@ -1,4 +1,4 @@
-import React from "react";
+
 import gradient from "/marketSection/gradient.svg";
 import arrow from "/marketSection/arrow.svg";
 import { topArr, bottomArr } from "./data";
