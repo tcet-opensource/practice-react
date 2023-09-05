@@ -10,6 +10,7 @@ export default {
         'custom-gray': '#999999',
       },
     },
+
   },
   plugins: [],
 };

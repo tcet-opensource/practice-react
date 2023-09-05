@@ -4,6 +4,7 @@ import Market from "./components/marketSection";
 import ExchangeSection from "./components/ExchangeSection/index.jsx";
 import Partner from "./components/partnerSection/index.jsx";
 import Slider from "./components/Company-Slider";
+import ContactSection from "./components/ContactSection/index.jsx";
 function App() {
   return(
       <div className="">
@@ -21,6 +22,7 @@ function App() {
     </div> */}
               <Slider />
           </div>
+          <ContactSection/>
       </div>
   );
 }
