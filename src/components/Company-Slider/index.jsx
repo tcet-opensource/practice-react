@@ -1,7 +1,5 @@
-import React, { useRef, useState } from 'react';
-
 import CompanySwiper from "../Company-Slider/CompanySwiper"
-//
+
 export default function Slider(){
     return(
         <div className="flex flex-col justify-center text-white h-100 ">
