@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 @layer components {
     .primary-gradient {
         @apply rounded-sm bg-gradient-to-br from-purple-500 via-blue-500 to-yellow-300;
