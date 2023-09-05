@@ -1,4 +1,5 @@
-import Index from "./components/One/index";
+
+// import Index from "./components/One/index";
 import Slider from "./components/Company-Slider";
 function App() {
   return (

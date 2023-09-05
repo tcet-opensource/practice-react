@@ -32,11 +32,19 @@ export default function CompanySwiper(){
 
   return (
     <>
+<<<<<<< HEAD
       <div className="flex justify-center bg-[#333333] mb-6 2xl:mb-9 space-x-4 xl:space-x-8">
         <div className="swiper-prev w-10 h-10 xl:w-14 xl:h-14 cursor-pointer ">
           <img src="/pagination-default.svg.svg" alt="prev-image-btn" />
         </div>
         <div className="swiper-next bg-[#333333] w-10 h-10 xl:w-14 xl:h-14 cursor-pointer">
+=======
+      <div className="flex justify-center bg-[#141619] mb-6 2xl:mb-9 space-x-4 xl:space-x-8">
+        <div className="swiper-prev w-10 h-10 xl:w-14 xl:h-14 ">
+          <img src="/pagination-default.svg.svg" alt="prev-image-btn" />
+        </div>
+        <div className="swiper-next bg-[#141619] w-10 h-10 xl:w-14 xl:h-14">
+>>>>>>> 5456e55250098a51228adfa844eb707694ba50ab
           <img src="/pagination-default.svg.svg" alt="next-image-btn" className="rotate-180 " />
         </div>
       </div>
@@ -46,14 +54,14 @@ export default function CompanySwiper(){
         nextEl: ".swiper-next",
       }}
       modules={[Navigation]}
-      className="mySwiper w-full"
+      className="mySwiper w-11/12"
       spaceBetween={10}
       slidesPerView = {1}
     >
       
       <div>
       {slideObj.map((d, i) => (
-        <SwiperSlide key={i} className="font-normal text-center justify-between leading-7 md:leading-8 lg:leading-9 2xl:leading-10 "> 
+        <SwiperSlide key={i} className="font-normal text-center justify-between leading-7 md:leading-8 lg:leading-9 2xl:leading-10 ">
           <p >{d.info}</p>
         </SwiperSlide>
       ))}

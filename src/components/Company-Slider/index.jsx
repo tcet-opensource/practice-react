@@ -2,7 +2,11 @@ import CompanySwiper from "../Company-Slider/CompanySwiper"
 
 export default function Slider(){
     return(
+<<<<<<< HEAD
         <div className="flex flex-col justify-center text-white h-100 bg-[#333333] w-full h-full">
+=======
+        <div className="flex flex-col justify-center text-white h-100 p-4 ">
+>>>>>>> 5456e55250098a51228adfa844eb707694ba50ab
             <div className="text-center">
                 <div className="font-medium text-2xl md:text-4xl lg:text-5xl xl:text-6xl mx-8 lg:mx-32 xl:mx-40 mt-2">We are in good company</div>
                 <div className="font-normal mx-10 md:mx-44 lg:mx-68 xl:mx-72 my-5 md:my-7 text-sm md:text-base lg:text-lg xl:text-xl">Our partnerships have delivered great value to our projects and we're happy to share some of their feedback below</div>
