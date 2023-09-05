@@ -1,9 +1,8 @@
-import ExchangeSection from "./components/ExchangeSection";
-
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
-    <div className="flex flex-col items-center justify-center font-bold mainBG">
-      <ExchangeSection />
+    <div>
+      <Footer />
     </div>
   );
 }
