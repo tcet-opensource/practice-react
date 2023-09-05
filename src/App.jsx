@@ -1,10 +1,10 @@
-import React from "react";
-import Index from "./components/One/index";
+import React from 'react';
+import SectionWithGradient from './components/JoinTeam/SectionWithGradient';
+
 function App() {
   return (
-    <div className="flex flex-col items-center justify-center p-80 font-bold">
-      <p className="text-pink-800">Project 2</p>
-      <Index />
+    <div className="App">
+      <SectionWithGradient />
     </div>
   );
 }
