@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-.PartnersBG {
-  @apply border-[#41557280] bg-gradient-to-b from-[#41557280] to-[#1B1B1E];
-}
 
-.mainBackground {
-  @apply bg-[#141619];
+
+@layer components {
+    .primary-gradient {
+        @apply rounded-sm bg-gradient-to-br from-purple-500 via-blue-500 to-yellow-300;
+    }
 }
