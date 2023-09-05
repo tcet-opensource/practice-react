@@ -5,15 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-<<<<<<< HEAD
   classnames:
     specifier: ^2.3.2
     version: 2.3.2
-=======
   pnpm:
     specifier: ^8.7.1
     version: 8.7.1
->>>>>>> 25f3440fa24c87f78c9904e8340f07b1cebb819d
   react:
     specifier: ^18.2.0
     version: 18.2.0

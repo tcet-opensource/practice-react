@@ -10,11 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
     "classnames": "^2.3.2",
-=======
+
     "pnpm": "^8.7.1",
->>>>>>> 25f3440fa24c87f78c9904e8340f07b1cebb819d
+
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typeface-inter": "^3.18.1"
