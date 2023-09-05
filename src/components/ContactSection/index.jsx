@@ -3,7 +3,7 @@ import { data } from "./data";
 
 function Index() {
   return (
-    <div className="flex flex-col items-center justify-center  text-white  min-h-[80px]  px-12 pt-28 pb-32 relative">
+    <div className="flex flex-col items-center justify-center text-white px-12 pb-32 relative">
       <div className="flex flex-col text-center justify-center font-medium leading-50 md:text-6xl text-5xl">
         Contact Us
       </div>
