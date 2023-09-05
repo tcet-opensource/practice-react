@@ -1,8 +1,7 @@
 import Hero from "./components/HeroSection/Hero";
 import About from "./components/AboutSection";
 import Market from "./components/marketSection";
-
-import React from "react";
+import ExchangeSection from "./components/ExchangeSection/index.jsx";
 
 function App() {
   return(
@@ -10,8 +9,10 @@ function App() {
           <Hero/>
           <About/>
           <Market />
+          <ExchangeSection />
       </div>
   )
+
 }
 
 export default App;

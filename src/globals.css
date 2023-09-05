@@ -12,3 +12,12 @@
     background: linear-gradient(135deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%);
 }
 }
+
+.mainBG {
+    @apply bg-[#141619];
+}
+
+.common-gradient {   
+    background: linear-gradient(135deg, #665dcd 0%, #5fa4e6 44.76%, #d2ab67 100%);
+}
+
