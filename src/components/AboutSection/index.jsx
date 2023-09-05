@@ -11,7 +11,7 @@ const About = () => {
   ];
 
   return (
-    <section className="bg-[#141619] text-white text-center px-8">
+    <section className="bg-[#141619] text-white text-center px-8 pb-24 sm:pb-40">
       {items.map((item, index) => (
         <div key={index}>
           <h1 className="text-5xl font-semibold md:text-3xl lg:text-5xl">
