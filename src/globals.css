@@ -21,3 +21,10 @@
     background: linear-gradient(135deg, #665dcd 0%, #5fa4e6 44.76%, #d2ab67 100%);
 }
 
+.PartnersBG {
+    @apply border-[#41557280] bg-gradient-to-b from-[#41557280] to-[#1B1B1E];
+}
+
+.mainBackground {
+    @apply bg-[#141619];
+}
