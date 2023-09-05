@@ -33,10 +33,10 @@ export default function CompanySwiper(){
   return (
     <>
       <div className="flex justify-center bg-[#333333] mb-6 2xl:mb-9 space-x-4 xl:space-x-8">
-        <div className="swiper-prev w-10 h-10 xl:w-14 xl:h-14 ">
+        <div className="swiper-prev w-10 h-10 xl:w-14 xl:h-14 cursor-pointer ">
           <img src="/pagination-default.svg.svg" alt="prev-image-btn" />
         </div>
-        <div className="swiper-next bg-[#333333] w-10 h-10 xl:w-14 xl:h-14">
+        <div className="swiper-next bg-[#333333] w-10 h-10 xl:w-14 xl:h-14 cursor-pointer">
           <img src="/pagination-default.svg.svg" alt="next-image-btn" className="rotate-180 " />
         </div>
       </div>
