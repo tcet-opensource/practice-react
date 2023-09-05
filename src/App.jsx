@@ -1,3 +1,4 @@
+import Footer from "./components/Footer/Footer";
 import Hero from "./components/HeroSection/Hero";
 import About from "./components/AboutSection";
 import Market from "./components/marketSection";
@@ -23,7 +24,10 @@ function App() {
               <Slider />
           </div>
           <ContactSection/>
+          <Footer />
+
       </div>
+
   );
 }
 
