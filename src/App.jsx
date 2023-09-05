@@ -1,10 +1,12 @@
-import ExchangeSection from "./components/ExchangeSection";
+import React from 'react';
+import SectionWithGradient from "./components/JointeamSection/SectionWithGradient.jsx";
+
 
 function App() {
   return (
-    <div className="flex flex-col items-center justify-center font-bold mainBG">
-      <ExchangeSection />
-    </div>
+    <div className="App">
+      <SectionWithGradient />
+</div>
   );
 }
 
