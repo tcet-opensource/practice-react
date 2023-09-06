@@ -3,15 +3,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-<<<<<<< HEAD
-=======
-
-
-@layer base {
-    html,* {
-      font-family: 'Inter', sans-serif;   
-       box-sizing: border-box;
-       background-color: #141619
-    }
-  }
->>>>>>> 5456e55250098a51228adfa844eb707694ba50ab

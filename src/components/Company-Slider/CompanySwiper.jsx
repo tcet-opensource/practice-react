@@ -32,20 +32,12 @@ export default function CompanySwiper(){
 
   return (
     <>
-<<<<<<< HEAD
-      <div className="flex justify-center bg-[#333333] mb-6 2xl:mb-9 space-x-4 xl:space-x-8">
-        <div className="swiper-prev w-10 h-10 xl:w-14 xl:h-14 cursor-pointer ">
-          <img src="/pagination-default.svg.svg" alt="prev-image-btn" />
-        </div>
-        <div className="swiper-next bg-[#333333] w-10 h-10 xl:w-14 xl:h-14 cursor-pointer">
-=======
       <div className="flex justify-center bg-[#141619] mb-6 2xl:mb-9 space-x-4 xl:space-x-8">
-        <div className="swiper-prev w-10 h-10 xl:w-14 xl:h-14 ">
-          <img src="/pagination-default.svg.svg" alt="prev-image-btn" />
+        <div className="swiper-prev w-10 h-10 xl:w-14 xl:h-14 cursor-pointer">
+          <img src="CompanySliderSection/pagination-default.svg.svg" alt="prev-image-btn" />
         </div>
-        <div className="swiper-next bg-[#141619] w-10 h-10 xl:w-14 xl:h-14">
->>>>>>> 5456e55250098a51228adfa844eb707694ba50ab
-          <img src="/pagination-default.svg.svg" alt="next-image-btn" className="rotate-180 " />
+        <div className="swiper-next bg-[#141619] w-10 h-10 xl:w-14 xl:h-14 cursor-pointer">
+          <img src="CompanySliderSection/pagination-default.svg.svg" alt="next-image-btn" className="rotate-180 " />
         </div>
       </div>
       <Swiper
