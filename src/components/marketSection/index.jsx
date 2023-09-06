@@ -1,18 +1,16 @@
-
-import gradient from "/marketSection/gradient.svg";
+// import gradient from "/marketSection/gradient.svg";
 import arrow from "/marketSection/arrow.svg";
 import { topArr, bottomArr } from "./data";
 function Market() {
   return (
-    <section className="bg-[#141619] text-white relative px-4 md:p-0 z-10">
-      <img
+    <section className="relative z-10 px-4 text-white bg-custom-bg md:p-0">
+      {/* <img
         src={gradient}
-        className="absolute md:-top-full  z-0  md:h-[2018.932px] -left-4 md:left-0 opacity-80"
-      />
-
+        className="absolute z-0 w-auto md:-top-full md:h-[2000px] -left-4 md:left-0 opacity-80 overflow-hidden"
+      /> */}
       {topArr.map((step, index) => (
         <div
-          className="relative z-10 flex flex-col items-center mb-20 md:mb-32 text-center"
+          className="relative z-10 flex flex-col items-center mb-20 text-center md:mb-32"
           key={index}
         >
           <p className="mb-5 text-4xl font-medium md:text-5xl">{step.head}</p>
@@ -31,9 +29,11 @@ function Market() {
               {step.head}
             </p>
             <p className="max-w-sm mb-5 text-xl font-bold">{step.subHead}</p>
-            <p className="max-w-sm mb-6 text-xl text-[#E5E5E5]">{step.description}</p>
+            <p className="max-w-sm mb-6 text-xl text-[#E5E5E5]">
+              {step.description}
+            </p>
             <a
-            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
               className="flex justify-center gap-2 mb-6 md:justify-start"
             >
               <p className="border-b">Learn more</p>
@@ -45,6 +45,6 @@ function Market() {
       ))}
     </section>
   );
-} 
+}
 
 export default Market;

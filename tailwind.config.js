@@ -6,6 +6,9 @@ export default {
       fontFamily: {
         inter: ["Inter", "sans"],
       },
+      colors: {
+        'custom-bg': '#141619'
+      },
       textColor: {
         'custom-gray': '#999999',
       },

@@ -1,4 +1,3 @@
-import "typeface-inter";
 import { partners1 } from "./data";
 
 function Partner() {
@@ -49,7 +48,7 @@ function Partner() {
               {partners1.map((partner, index) => (
                 <div
                   key={index}
-                  className="relative flex flex-col justify-center w-48 h-48 border border-solid rounded-md lg:w-40 lg:h-40 xl:w-48 xl:h-48  gap-y-4 PartnersBG p-14 lg:p-10 even:mt-6"
+                  className="relative flex flex-col justify-center w-48 h-48 border border-solid rounded-md lg:w-40 lg:h-40 xl:w-48 xl:h-48 gap-y-4 PartnersBG p-14 lg:p-10 even:mt-6"
                 >
                   <img
                     className="w-24 h-24 "

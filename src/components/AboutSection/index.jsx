@@ -11,13 +11,13 @@ const About = () => {
   ];
 
   return (
-    <section className="bg-[#141619] text-white text-center px-8 pb-24 sm:pb-40">
+    <section className="pb-24 text-center text-white first-letter:px-8 bg-custom-bg sm:pb-40">
       {items.map((item, index) => (
         <div key={index}>
           <h1 className="text-5xl font-semibold md:text-3xl lg:text-5xl">
             {item.title}
           </h1>
-          <p className="m-auto mt-6 md:w-2/3 lg:w-2/4 justify-evenly">
+          <p className="m-auto mt-6 md:w-2/3 lg:w-2/4 justify-evenly text-[#E5E5E5]">
             {item.paragraph}
           </p>
         </div>

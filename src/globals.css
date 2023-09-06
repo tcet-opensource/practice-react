@@ -18,7 +18,7 @@
 }
 
 .mainBG {
-    @apply bg-[#141619];
+    @apply bg-custom-bg;
 }
 
 .common-gradient {   
@@ -30,7 +30,7 @@
 }
 
 .mainBackground {
-    @apply bg-[#141619];
+    @apply bg-custom-bg;
 }
 
 @layer base {
