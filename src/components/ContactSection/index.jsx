@@ -9,7 +9,7 @@ function Index() {
       {data.map((data) => (
         <div
           key={data}
-          className="flex text-center justify-center text-[#E5E5E5] text-lg font-normal leading-8 w-full sm:px-48 pt-14 pb-16 z-10"
+          className="flex text-center justify-center text-[#E5E5E5] text-md sm:text-lg font-normal leading-8 w-full sm:px-48 pt-14  pb-16 z-10"
         >
           {data.content}
         </div>
