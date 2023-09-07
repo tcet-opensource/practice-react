@@ -1,17 +1,28 @@
 import React from 'react';
 
 function SectionWithGradient() {
+  const JoinTeamGradient = [
+    {
+      id: 1,
+      gradientClass: "bg-gradient-to-r from-blue-500/30 from-65% to-yellow-600/50",
+      title: "Join",
+      subTitle: "Gravity Team"
+    },
+    
+  ];
+
   return (
     <div className="flex bg-gray-900 text-white/80 h-screen relative">
       <div className="w-1/2 flex flex-col items-center mt-20">
-      
-        <div className="w-56 h-28 rounded-full relative">
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-500/25 from-70% to-yellow-600/50 rounded-full blur-xl"></div>
-          <div className="z-10 text-left flex flex-col h-full font-medium">
-            <h2 className="text-3xl">Join</h2>
-            <h2 className="text-3xl ml-2 mt-2">Gravity Team</h2>
+        {JoinTeamGradient.map((item) => (
+          <div key={item.id} className="w-56 h-28 rounded-full relative">
+            <div className={`absolute inset-0 ${item.gradientClass} rounded-full blur-xl`}></div>
+            <div className="z-10 text-left flex flex-col h-full font-medium">
+              <h2 className="text-3xl">{item.title}</h2>
+              <h2 className="text-3xl ml-2 mt-2">{item.subTitle}</h2>
+            </div>
           </div>
-        </div>
+        ))}
       </div>
       <div className="w-1/2 mr-20 mt-20">
         <p className="text-xl">
@@ -27,9 +38,9 @@ function SectionWithGradient() {
         </p>
         <a href="#" className="text-xl mt-4 flex text-start">
           Learn more about working with us{' '}
-          <object data="public/arrow.svg" type="image/svg+xml" className="ml-4" />
+          <object data="arrow.svg" type="image/svg+xml" className="ml-4" />
         </a>
-        <div className="w-80 h-0.5 bg-gradient-to-r from-blue-500 via-blue-500 to-yellow-600/50 mt-1"></div>
+        <div className="w-80 h-0.5 bg-gradient-to-r from-blue-500 from-60% to-yellow-600/50 mt-1"></div>
       </div>
     </div>
   );

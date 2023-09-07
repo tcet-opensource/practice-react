@@ -1,6 +1,6 @@
 
 import React from 'react';
-import SectionWithGradient from './components/JoinTeam/SectionWithGradient';
+import SectionWithGradient from './components/JointeamSection/SectionWithGradient';
 
 function App() {
   return (
