@@ -1,13 +1,13 @@
-import gradient from "/marketSection/gradient.svg";
+// import gradient from "/marketSection/gradient.svg";
 import arrow from "/marketSection/arrow.svg";
 import { topArr, bottomArr } from "./data";
 function Market() {
   return (
     <section className="relative z-10 px-4 text-white bg-custom-bg md:p-0">
-      <img
+      {/* <img
         src={gradient}
         className="absolute z-0 w-auto md:-top-full md:h-[2000px] -left-4 md:left-0 opacity-80 overflow-hidden"
-      />
+      /> */}
       {topArr.map((step, index) => (
         <div
           className="relative z-10 flex flex-col items-center mb-20 text-center md:mb-32"
