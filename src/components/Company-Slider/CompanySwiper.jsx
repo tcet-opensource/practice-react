@@ -30,14 +30,14 @@ export default function CompanySwiper() {
 
   return (
     <>
-      <div className="flex justify-center bg-[#141619] mb-6 2xl:mb-9 space-x-4 xl:space-x-8">
+      <div className="flex justify-center mb-6 space-x-4 bg-custom-bg 2xl:mb-9 xl:space-x-8">
         <div className="w-10 h-10 cursor-pointer swiper-prev xl:w-14 xl:h-14">
           <img
             src="CompanySliderSection/pagination-default.svg"
             alt="prev-image-btn"
           />
         </div>
-        <div className="swiper-next bg-[#141619] w-10 h-10 xl:w-14 xl:h-14 cursor-pointer">
+        <div className="w-10 h-10 cursor-pointer swiper-next bg-custom-bg xl:w-14 xl:h-14">
           <img
             src="CompanySliderSection/pagination-default.svg"
             alt="next-image-btn"

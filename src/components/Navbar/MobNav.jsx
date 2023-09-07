@@ -33,14 +33,14 @@ const MobNav = ({ data, isOpen, toggleDropdown }) => {
                       {isOpen[i] ? (
                         <img
                           src="/Navbar/span_after.svg"
-                          alt=""
+                          alt="after"
                           className="pt-2 pl-2 cursor-pointer"
                           onClick={() => toggleDropdown(i)}
                         />
                       ) : (
                         <img
                           src="/Navbar/arrow.svg"
-                          alt=""
+                          alt="before"
                           className="pb-2 pl-2 cursor-pointer"
                           onClick={() => toggleDropdown(i)}
                         />
@@ -51,16 +51,15 @@ const MobNav = ({ data, isOpen, toggleDropdown }) => {
               </ul>
               {d.subTitle &&
                 d.subTitle.map((el, index) => (
-                  <div className="" key={index}>
-                    <div
-                      className={`px-4 py-2 text-white bg-[#141619] ${
-                        isOpen[i] ? "" : "hidden"
-                      }`}
-                    >
-                      <a href="" className="uppercase ">
-                        {el}
-                      </a>
-                    </div>
+                  <div
+                    key={index}
+                    className={`px-4 py-2 text-white bg-[#141619] ${
+                      isOpen[i] ? "" : "hidden"
+                    }`}
+                  >
+                    <a href="" className="uppercase ">
+                      {el}
+                    </a>
                   </div>
                 ))}
             </div>
