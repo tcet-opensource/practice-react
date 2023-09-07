@@ -1,17 +1,6 @@
-<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="arrow.svg" clip-path="url(#clip0_192_1686)">
-<g id="icon/arrow">
-<path id="Fill-1" fill-rule="evenodd" clip-rule="evenodd" d="M20.1394 9.73942L12.4593 1.68679C12.1012 1.32042 11.52 1.27786 11.1018 1.64978C10.7287 1.98099 10.7193 2.6286 11.0643 2.9894L17.2295 9.44336H1.56938C1.03874 9.44336 0.609375 9.86708 0.609375 10.3907C0.609375 10.9144 1.03875 11.3381 1.56938 11.3381H17.2295L11.0643 17.792C10.7193 18.1529 10.7437 18.7839 11.1018 19.1317C11.4806 19.498 12.1069 19.4666 12.4593 19.0947L20.1394 11.042C20.3644 10.8237 20.4056 10.6128 20.4094 10.3907C20.4094 10.1724 20.2744 9.88006 20.1394 9.73942Z" fill="url(#paint0_linear_192_1686)"/>
-</g>
-</g>
-<defs>
-<linearGradient id="paint0_linear_192_1686" x1="0.609375" y1="2.95261" x2="18.8545" y2="19.539" gradientUnits="userSpaceOnUse">
-<stop stop-color="#665DCD"/>
-<stop offset="0.447624" stop-color="#5FA4E6"/>
-<stop offset="1" stop-color="#D2AB67"/>
-</linearGradient>
-<clipPath id="clip0_192_1686">
-<rect width="20" height="20" fill="white" transform="translate(0.609375 0.390625)"/>
-</clipPath>
-</defs>
+<svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="path-1-inside-1_192_1723" fill="white">
+<path d="M0.0462646 8L8.04628 -1.32132e-05L16.0463 7.99999L8.04627 16L0.0462646 8Z"/>
+</mask>
+<path d="M8.04627 16L7.33916 16.7071L8.04627 17.4142L8.75337 16.7071L8.04627 16ZM15.3392 7.29288L7.33916 15.2929L8.75337 16.7071L16.7534 8.7071L15.3392 7.29288ZM8.75337 15.2929L0.753371 7.29289L-0.660842 8.70711L7.33916 16.7071L8.75337 15.2929Z" fill="white" mask="url(#path-1-inside-1_192_1723)"/>
 </svg>

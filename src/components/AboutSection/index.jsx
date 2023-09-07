@@ -28,7 +28,7 @@ const About = () => {
             <div
               key={item.id}
               className={classNames(
-                "p-4 border-slate-700 hover:primary-gradient md:h-28 cursor-pointer border md:border-0",
+                "p-4 bg-gradient-to-b border-slate-700 hover:primary-gradient md:h-28 cursor-pointer border md:border-0",
                 index % 4 === 0 ? "" : "md:border-l",
                 4 > index ? "md:border-b" : "",
               )}

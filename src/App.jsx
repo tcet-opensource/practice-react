@@ -1,3 +1,4 @@
+import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/HeroSection/Hero";
 import About from "./components/AboutSection";
 import Market from "./components/marketSection";
@@ -10,6 +11,7 @@ import Footer from "./components/Footer/Footer.jsx";
 function App() {
   return (
     <div>
+      <Navbar />
       <Hero />
       <About />
       <Market />
