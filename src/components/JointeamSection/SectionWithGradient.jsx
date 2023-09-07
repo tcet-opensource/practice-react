@@ -24,7 +24,7 @@ function SectionWithGradient() {
         </p>
         <a href="#" className="flex mt-4 sm:text-xl text-start">
           Learn more about working with us{" "}
-          <object data="/public/JoinSection/arrow.svg" type="image/svg+xml" className="ml-4" />
+          <object data="/JoinSection/arrow.svg" type="image/svg+xml" className="ml-4" />
         </a>
         <div className="w-60 sm:w-72 h-0.5 bg-gradient-to-r from-blue-500 via-blue-500 to-yellow-600/50 mt-1"></div>
       </div>
