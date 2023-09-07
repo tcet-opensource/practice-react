@@ -20,14 +20,14 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between p-6 bg-[#141619]">
       <div>
-        <img src="/logo.svg" alt="" />
+        <img src="/Navbar/logo.svg" alt="" />
       </div>
 
       <Accordian data={data} toggleDropdown={toggleDropdown} isOpen={isOpen} />
 
       <div className="hidden lg:flex lg:order-2">
-        <img src="/gradient.svg" alt="" />
-        <a className="text-white text-base px-4">GET IN TOUCH</a>
+        <img src="/Navbar/gradient.svg" alt="" />
+        <a className="px-4 text-base text-white">GET IN TOUCH</a>
       </div>
 
       <MobNav data={data} toggleDropdown={toggleDropdown} isOpen={isOpen} />

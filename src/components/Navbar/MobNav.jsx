@@ -7,13 +7,13 @@ const MobNav = ({ data, isOpen, toggleDropdown }) => {
     <div className="flex flex-col lg:hidden">
       {ham ? (
         <img
-          src="/menu.svg"
+          src="/Navbar/menu.svg"
           className="cursor-pointer"
           onClick={() => setHam(false)}
         />
       ) : (
         <img
-          src="/cross.svg"
+          src="/Navbar/cross.svg"
           className="cursor-pointer"
           onClick={() => setHam(true)}
         />
@@ -32,14 +32,14 @@ const MobNav = ({ data, isOpen, toggleDropdown }) => {
                     <div>
                       {isOpen[i] ? (
                         <img
-                          src="/span_after.svg"
+                          src="/Navbar/span_after.svg"
                           alt=""
                           className="pt-2 pl-2 cursor-pointer"
                           onClick={() => toggleDropdown(i)}
                         />
                       ) : (
                         <img
-                          src="/arrow.svg"
+                          src="/Navbar/arrow.svg"
                           alt=""
                           className="pb-2 pl-2 cursor-pointer"
                           onClick={() => toggleDropdown(i)}
@@ -51,9 +51,8 @@ const MobNav = ({ data, isOpen, toggleDropdown }) => {
               </ul>
               {d.subTitle &&
                 d.subTitle.map((el, index) => (
-                  <div className="">
+                  <div className="" key={index}>
                     <div
-                      key={index}
                       className={`px-4 py-2 text-white bg-[#141619] ${
                         isOpen[i] ? "" : "hidden"
                       }`}

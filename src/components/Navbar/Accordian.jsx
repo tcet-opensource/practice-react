@@ -13,14 +13,14 @@ const Accordian = ({ data, toggleDropdown, isOpen }) => {
                 <div>
                   {isOpen[i] ? (
                     <img
-                      src="/span_after.svg"
+                      src="/Navbar/span_after.svg"
                       alt=""
                       className="pt-2 pl-2 cursor-pointer"
                       onClick={() => toggleDropdown(i)}
                     />
                   ) : (
                     <img
-                      src="/arrow.svg"
+                      src="/Navbar/arrow.svg"
                       alt=""
                       className="pb-2 pl-2 cursor-pointer"
                       onClick={() => toggleDropdown(i)}
