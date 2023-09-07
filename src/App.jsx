@@ -1,9 +1,8 @@
-import Index from "./components/One/index";
+import Navbar from "./components/Navbar/Navbar";
 function App() {
   return (
-    <div className="flex flex-col items-center justify-center font-bold p-80">
-      <p className="text-pink-800">Project 2</p>
-      <Index />
+    <div>
+      <Navbar/>
     </div>
   );
 }
