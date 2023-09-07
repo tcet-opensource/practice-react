@@ -10,12 +10,14 @@ const MobNav = ({ data, isOpen, toggleDropdown }) => {
           src="/Navbar/menu.svg"
           className="cursor-pointer"
           onClick={() => setHam(false)}
+          width={40}
         />
       ) : (
         <img
           src="/Navbar/cross.svg"
           className="cursor-pointer"
           onClick={() => setHam(true)}
+          width={30}
         />
       )}
 
@@ -23,7 +25,7 @@ const MobNav = ({ data, isOpen, toggleDropdown }) => {
         <div className="absolute top-0 right-0 mt-16 mr-10 bg-[#141619] rounded-lg">
           {data.map((d, i) => (
             <div key={d.id} className="flex flex-col">
-              <ul className="px-4 py-2">
+              <ul className="px-4 py-8">
                 <li className="flex">
                   <a href="" className="text-white uppercase">
                     {d.title}

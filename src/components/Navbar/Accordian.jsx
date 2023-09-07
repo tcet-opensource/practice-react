@@ -1,4 +1,4 @@
-// eslint-disable-next-line react/prop-types
+    // eslint-disable-next-line react/prop-types
 const Accordian = ({ data, toggleDropdown, isOpen }) => {
   return (
     <div className="flex flex-row">
