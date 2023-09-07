@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between p-6 bg-[#141619]">
       <div>
-        <img src="/logo.svg" alt="" />
+        <img src="/logo.svg" alt="logo" />
       </div>
 
       <Accordian data={data} toggleDropdown={toggleDropdown} isOpen={isOpen} />
