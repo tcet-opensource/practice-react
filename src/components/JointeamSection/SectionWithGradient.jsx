@@ -4,7 +4,7 @@ function SectionWithGradient() {
   const JoinTeamGradient = [
     {
       id: 1,
-      gradientClass: "bg-gradient-to-r from-blue-500/30 from-65% to-yellow-600/50",
+      gradientClass: "bg-gradient-to-r from-blue-500/25 from-65% to-yellow-600/50",
       title: "Join",
       subTitle: "Gravity Team"
     },
@@ -12,7 +12,7 @@ function SectionWithGradient() {
   ];
 
   return (
-    <div className="flex bg-gray-900 text-white/80 h-screen relative">
+    <div className="flex bg-gray-900 text-white/70 h-screen relative">
       <div className="w-1/2 flex flex-col items-center mt-20">
         {JoinTeamGradient.map((item) => (
           <div key={item.id} className="w-56 h-28 rounded-full relative">
