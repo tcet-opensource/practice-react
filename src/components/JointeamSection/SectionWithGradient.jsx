@@ -4,7 +4,7 @@ function SectionWithGradient() {
   const JoinTeamGradient = [
     {
       id: 1,
-      gradientClass: "bg-gradient-to-r from-blue-500/25 from-65% to-yellow-600/50",
+      gradientClass: "bg-gradient-to-r from-blue-500/30 from-65% to-yellow-600/50",
       title: "Join",
       subTitle: "Gravity Team"
     },
