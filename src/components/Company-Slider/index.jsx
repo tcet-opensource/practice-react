@@ -2,7 +2,7 @@ import CompanySwiper from "../Company-Slider/CompanySwiper";
 
 export default function Slider() {
   return (
-    <div className="flex flex-col justify-center px-4 mt-24 text-white h-100 sm:mt-0">
+    <div className="flex flex-col justify-center px-4 mt-24 text-white h-100 sm:mt-0bg-[#141619]">
       <div className="text-center">
         <div className="mx-8 mt-2 text-4xl font-medium md:text-4xl lg:text-5xl xl:text-6xl lg:mx-32 xl:mx-40">
           We are in good company
@@ -24,7 +24,7 @@ export default function Slider() {
             Co-founder and CEO of Bitkub
           </p>
           <img
-            src="/bitkub-logo-light-trimmed.png.png"
+            src="CompanySliderSection/bitkub-logo-light-trimmed.png"
             alt="bitkub-logo"
             className="w-20 h-3 pl-2 border-l-2 md:w-24 md:h-4 xl:w-32 xl:h-6 border-white-100 md:pl-4"
           />
