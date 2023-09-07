@@ -5,9 +5,17 @@ const MobNav = ({ data, isOpen, toggleDropdown }) => {
   return (
     <div className="flex flex-col lg:hidden">
       {ham ? (
-        <img src="/menu.svg" onClick={() => setHam(false)} />
+        <img
+          src="/menu.svg"
+          className="cursor-pointer"
+          onClick={() => setHam(false)}
+        />
       ) : (
-        <img src="/cross.svg" onClick={() => setHam(true)} />
+        <img
+          src="/cross.svg"
+          className="cursor-pointer"
+          onClick={() => setHam(true)}
+        />
       )}
 
       {!ham && (
